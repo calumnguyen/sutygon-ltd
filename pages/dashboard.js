@@ -5,7 +5,13 @@ export default function Dashboard() {
   return (
     <>
     <Nav />
-    <Card cardName='To-Do Today'/>  
+    <div className='flex-wrap'>
+      <Card cardName='To-Do Today'/>
+      <Card cardName='Business Live'/>
+      <Card cardName='Inventory'/>
+      <Card cardName='News'/>
+      <Card cardName='To-Do this month'/>
+    </div>
     </>
   )
 }
